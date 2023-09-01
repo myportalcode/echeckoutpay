@@ -18,9 +18,9 @@ jQuery(function ($) {
   $(window).on("scroll", function () {
     var scroll = $(window).scrollTop();
     if (scroll < 2) {
-      $("nav.sticky-header").removeClass("affix");
+      $("header.sticky-header").removeClass("affix");
     } else {
-      $("nav.sticky-header").addClass("affix");
+      $("header.sticky-header").addClass("affix");
     }
   });
 
